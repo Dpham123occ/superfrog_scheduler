@@ -14,7 +14,7 @@ public class CorsConfiguration {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://superfrogscheduler-c56w7gj6n-dpham123occs-projects.vercel.app/") // Allow this origin to make requests
+                        .allowedOrigins("https://superfrog-schedulerproject-dpham123occs-projects.vercel.app/") // Allow this origin to make requests
                         .allowedMethods("GET", "POST", "PUT", "DELETE") // Allowed HTTP methods
                         .allowedHeaders("*") // Allow all headers
                         .allowCredentials(true); // Include cookies in the requests; // Enable CORS for the whole application.
