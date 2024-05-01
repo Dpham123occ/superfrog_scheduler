@@ -38,7 +38,7 @@ export default {
       try {
         const basicAuth = "Basic " + btoa(this.username + ":" + this.password);
         const response = await axios.post(
-          "http://localhost:8080/api/users/login",
+          "https://superfrog-scheduler.onrender.com:8080/api/users/login",
           {},
           {
             headers: {

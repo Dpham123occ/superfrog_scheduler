@@ -123,7 +123,7 @@ export default {
     },
     submitOrder() {
       axios
-        .post("http://localhost:8080/api/requests", {
+        .post("https://superfrog-scheduler.onrender.com:8080/api/requests", {
           firstName: this.eventInfo.contactFirstName,
           lastName: this.eventInfo.contactLastName,
           email: this.eventInfo.email,
